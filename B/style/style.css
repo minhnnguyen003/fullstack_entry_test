@@ -1,0 +1,44 @@
+.main {
+    /* display: flex; */
+    width: 100%;
+    margin-top: 7vh;
+}
+
+
+.quiz-zone .question-zone .question-block {
+    width: 100%;
+    height: 40vh;
+    background-color: #EDE2E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-zone .answer-zone .line {
+    display: flex;
+}
+
+.quiz-zone .answer-zone .line .answer-block {
+    width: 45%;
+    height: 20vh;
+    background-color: #000A5a;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-btn {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100vw;
+    background-color: #819830;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 600;
+    align-items: center;
+}
