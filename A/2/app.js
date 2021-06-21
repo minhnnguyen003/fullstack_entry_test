@@ -10,6 +10,11 @@ let data = [
         GD: 40,
     },
     {
+        name: 'Delegon',
+        points: 93,
+        GD: 40,
+    },
+    {
         name: 'Liverpool',
         points: 88,
         GD: 32,
