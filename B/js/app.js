@@ -1,3 +1,5 @@
+alert("Load API thành công!!! Vui lòng check phần Console");
+
 import loadQuestion from "./models/loadQuestion.js";
 import createAnswer from "./models/createAnswer.js";
 var quizList = [];
@@ -9,7 +11,6 @@ const quizLink =  'https://opentdb.com/api.php?amount=5&category=21&difficulty=e
 await fetch(quizLink)
 .then((response) => response.json())
 .then(function (data) {
-    console.log(data);
     quizList.push(data.results);
     
 });
